@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -15,7 +16,7 @@ class FirstPage extends StatelessWidget {
         title: Text('TEST'),
       ),
       body: SingleChildScrollView(
-        scrollDirection: Axis.horizontal,
+        scrollDirection: Axis.vertical,
         child: DataTable(
           columns: const <DataColumn>[
             DataColumn(
@@ -52,16 +53,258 @@ class FirstPage extends StatelessWidget {
             )),
           ],
           rows: const <DataRow>[
-            DataRow(cells: <DataCell>[
-              DataCell(Text('AGNISYS')),
-              DataCell(Text('AGNISYS')),
-              DataCell(Text('AGNISYS')),
-              DataCell(Text('AGNISYS')),
-              DataCell(Text('AGNISYS')),
-              DataCell(Text('AGNISYS')),
-              DataCell(Text('AGNISYS')),
-              DataCell(Text('AGNISYS')),
-            ]),
+            DataRow(
+              cells: <DataCell>[
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+              ],
+            ),
+            DataRow(
+              cells: <DataCell>[
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+              ],
+            ),
+            DataRow(
+              cells: <DataCell>[
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+              ],
+            ),
+            DataRow(
+              cells: <DataCell>[
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+              ],
+            ),
+            DataRow(
+              cells: <DataCell>[
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+              ],
+            ),
+            DataRow(
+              cells: <DataCell>[
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+              ],
+            ),
+            DataRow(
+              cells: <DataCell>[
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+              ],
+            ),
+            DataRow(
+              cells: <DataCell>[
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+              ],
+            ),
+            DataRow(
+              cells: <DataCell>[
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+              ],
+            ),
+            DataRow(
+              cells: <DataCell>[
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+              ],
+            ),
+            DataRow(
+              cells: <DataCell>[
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+              ],
+            ),
+            DataRow(
+              cells: <DataCell>[
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+              ],
+            ),
+            DataRow(
+              cells: <DataCell>[
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+              ],
+            ),
+            DataRow(
+              cells: <DataCell>[
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+              ],
+            ),
+            DataRow(
+              cells: <DataCell>[
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+              ],
+            ),
+            DataRow(
+              cells: <DataCell>[
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+              ],
+            ),
+            DataRow(
+              cells: <DataCell>[
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+              ],
+            ),
+            DataRow(
+              cells: <DataCell>[
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+              ],
+            ),
+            DataRow(
+              cells: <DataCell>[
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+              ],
+            ),
+            DataRow(
+              cells: <DataCell>[
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+              ],
+            ),
+            DataRow(
+              cells: <DataCell>[
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+                DataCell(Text('AGNISYS')),
+              ],
+            ),
           ],
         ),
       ),
