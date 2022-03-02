@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(MaterialApp(
     home: FirstPage(),
-    debugShowCheckedModeBanner: true,
+    debugShowCheckedModeBanner: false,
   ));
 }
 
