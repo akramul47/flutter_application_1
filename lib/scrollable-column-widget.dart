@@ -7,6 +7,16 @@ class ScrollableColumnWidget extends StatelessWidget {
       child: SingleChildScrollView(
         scrollDirection: Axis.horizontal,
         child: DataTable(
+          headingRowColor: MaterialStateProperty.all(Colors.green[100]),
+          columnSpacing: 40,
+          decoration: BoxDecoration(
+            border: Border(
+              right: BorderSide(
+                color: Colors.grey,
+                width: 0.5,
+              ),
+            ),
+          ),
           columns: const <DataColumn>[
             DataColumn(
                 label: Text(
