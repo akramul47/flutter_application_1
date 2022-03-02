@@ -10,6 +10,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+        appBar: AppBar(
+          elevation: 2,
+          title: Text('Portfolio'),
+        ),
         body: SafeArea(
           child: SingleChildScrollView(
             child: Row(
