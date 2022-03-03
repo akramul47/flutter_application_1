@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'fixedcolumn.widget.dart';
-import 'scrollable-column-widget.dart';
+import 'widgets.dart/fixedcolumn.widget.dart';
+import 'widgets.dart/scrollable-column-widget.dart';
 
 void main() => runApp(MyApp());
 
